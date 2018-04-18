@@ -54,7 +54,7 @@ class Pokemon {
 
     public function takeDamage($damagePoints){
         $this->health = $this->health - $damagePoints;
-        echo "current health of ".$this->name." = ".$this->health;
+        echo "current health of ".$this->name." = ".$this->health."<br><br>";
     }
 
     public function displayInfo(){
